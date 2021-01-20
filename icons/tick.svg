@@ -1,0 +1,4 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="circle" d="M19.64 38.83C29.9346 38.83 38.28 30.4846 38.28 20.19C38.28 9.89541 29.9346 1.54999 19.64 1.54999C9.34541 1.54999 1 9.89541 1 20.19C1 30.4846 9.34541 38.83 19.64 38.83Z" fill="white" stroke="#DD548C" stroke-width="2" stroke-miterlimit="10"/>
+<path class="tick" d="M12.5098 20.84L17.5198 29.37L26.7798 11.01" stroke="#DD548C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

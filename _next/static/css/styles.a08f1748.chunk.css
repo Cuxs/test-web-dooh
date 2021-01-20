@@ -1,0 +1,511 @@
+.nosotros-section {
+  padding-top: 50px;
+  position: relative; }
+  .nosotros-section h3 {
+    margin-bottom: 80px; }
+  .nosotros-section p {
+    margin: 20px auto 0px auto;
+    width: 35%; }
+  .nosotros-section .board-image {
+    position: absolute;
+    top: -160px;
+    right: 70%; }
+
+.contact-section {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px auto 0px auto;
+  width: 80%; }
+  .contact-section div {
+    width: 30%; }
+  .contact-section button {
+    margin: 20px auto 0px auto; }
+  .contact-section img {
+    width: 550px; }
+
+.oficinas-section {
+  margin-top: 120px;
+  position: relative; }
+  .oficinas-section img {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 40%; }
+  .oficinas-section .address__container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 100px; }
+  .oficinas-section .address__list {
+    width: 45%; }
+    .oficinas-section .address__list address {
+      margin-left: 35px; }
+    .oficinas-section .address__list strong {
+      font-weight: 500; }
+  .oficinas-section .address__label {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px; }
+    .oficinas-section .address__label svg {
+      margin-right: 10px; }
+
+@media (max-width: 930px) {
+  .nosotros-section p {
+    margin: 20px auto 0px auto;
+    width: 50%; }
+  .nosotros-section .board-image {
+    position: absolute;
+    top: -150px;
+    right: 75%;
+    width: 500px; }
+  .nosotros-section .video__container {
+    width: 50%; }
+  .contact-section {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 0px auto;
+    width: 50%; }
+    .contact-section div {
+      width: 100%; }
+    .contact-section img {
+      width: 100%; }
+  .oficinas-section img {
+    width: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px; }
+  .oficinas-section .oficinas__container {
+    display: flex;
+    flex-direction: column-reverse; }
+  .oficinas-section .address__container {
+    width: 100%;
+    margin-top: 20px; }
+  .oficinas-section .address__list {
+    width: 50%; }
+    .oficinas-section .address__list address {
+      text-align: center;
+      margin-left: 0px; }
+  .oficinas-section .address__label {
+    justify-content: center; } }
+
+@media (max-width: 426px) {
+  .nosotros-section h3 {
+    margin-bottom: 40px; }
+  .nosotros-section p {
+    width: 80%; }
+  .nosotros-section .board-image {
+    top: -80px;
+    right: 75%;
+    width: 250px;
+    z-index: -1; }
+  .nosotros-section .video__container {
+    margin-top: 30px;
+    width: 100%; }
+  .contact-section {
+    width: 80%; }
+  .oficinas-section img {
+    width: 70%; }
+  .oficinas-section .address__list {
+    width: 80%; } }
+
+@media (max-width: 321px) {
+  .nosotros-section .board-image {
+    top: -90px;
+    right: 70%;
+    width: 250px;
+    z-index: -1; } }
+
+.delivery-section,
+.creator-section,
+.inventario-section,
+.performance-section,
+.conoce-section,
+.providers-section,
+.data-section {
+  position: relative; }
+  .delivery-section img,
+  .creator-section img,
+  .inventario-section img,
+  .performance-section img,
+  .conoce-section img,
+  .providers-section img,
+  .data-section img {
+    margin-top: 40px; }
+
+.delivery-section {
+  margin-top: 40px; }
+  .delivery-section h4 {
+    margin-top: 10px;
+    font-weight: 100; }
+
+.creator-section {
+  margin-top: 160px; }
+  .creator-section button {
+    margin: 20px auto; }
+
+.inventario-section {
+  margin: 150px 0px 80px 0px; }
+
+.inventario__map {
+  display: flex;
+  margin-bottom: 100px; }
+  .inventario__map h4 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FF6699;
+    margin-bottom: 15px; }
+  .inventario__map span {
+    margin-top: 240px;
+    width: 80%; }
+    .inventario__map span p {
+      line-height: 120%; }
+  .inventario__map img {
+    position: absolute;
+    left: 35%; }
+
+.performance-section {
+  margin-top: 120px; }
+  .performance-section h3 {
+    margin-bottom: 30px; }
+
+.conoce-section {
+  margin-top: 150px; }
+
+.providers-section {
+  margin-top: 150px; }
+
+.data-section {
+  margin-top: 150px; }
+  .data-section .description {
+    width: 50%;
+    margin: 0px auto; }
+  .data-section .icon {
+    width: 30%; }
+    .data-section .icon p {
+      line-height: 140%; }
+  .data-section .icons__container {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 50px auto; }
+  .data-section .a,
+  .data-section .b,
+  .data-section .c {
+    display: none; }
+  .data-section .animated-icon:hover {
+    transform: scale(1.1);
+    transition: transform .2s; }
+    .data-section .animated-icon:hover .a,
+    .data-section .animated-icon:hover .b,
+    .data-section .animated-icon:hover .c {
+      display: block; }
+  .data-section .a stop {
+    animation: opani 0.2s ease-in alternate 1; }
+  .data-section .b stop {
+    animation: opani 0.4s ease-in alternate 1; }
+  .data-section .c stop {
+    animation: opani 0.6s ease-in alternate 1; }
+
+@keyframes opani {
+  from {
+    stop-opacity: 0; }
+  to {
+    stop-opacity: 1; } }
+
+@media (max-width: 930px) {
+  .data-section .icon {
+    width: 100%; }
+  .video__container {
+    width: 50%; } }
+
+@media (max-width: 426px) {
+  .delivery-section img {
+    width: 300px; }
+  .creator-section {
+    margin-top: 80px; }
+    .creator-section img {
+      width: 80%; }
+  .inventario-section {
+    margin: 100px 0px 80px 0px; }
+    .inventario-section .inventario__text {
+      width: 80%;
+      margin: 0px auto 0px auto; }
+  .inventario__map span {
+    margin-top: 180px; }
+  .inventario__map img {
+    left: 20%;
+    width: 300px; }
+  .inventario__map h4 {
+    font-size: 32px; }
+  .video__container {
+    width: 100%; }
+  .icons__container {
+    width: 100%; }
+  .icon {
+    width: 30%; }
+    .icon svg {
+      width: 125px; }
+  .data-section .description {
+    width: 80%;
+    margin: 0px auto 0px auto; } }
+
+@media (max-width: 321px) {
+  .icon svg {
+    width: 100px; }
+  .inventario__map span {
+    margin-top: 140px; }
+  .inventario__map img {
+    left: 20%;
+    width: 230px; }
+  .inventario__map h4 {
+    font-size: 25px; }
+  .performance-section {
+    margin-top: 80px; }
+  .conoce-section {
+    margin-top: 80px; }
+  .providers-section {
+    margin-top: 80px; }
+  .data-section {
+    margin-top: 40px; }
+    .data-section .icons__container {
+      margin: 20px auto; } }
+
+.card {
+  background-color: white;
+  width: 23%;
+  border-radius: 25px;
+  position: relative;
+  transition: box-shadow 2s; }
+  .card svg {
+    margin-top: 30px;
+    border-radius: 100%;
+    -moz-box-shadow: -6px -6px 4px 0px #e5e5e6 inset;
+    box-shadow: inset -6px -6px 4px -0px #e5e5e6;
+    -webkit-box-shadow: -6px -6px 4px 0px #e5e5e6 inset; }
+  .card:hover .card__tick, .card.active .card__tick {
+    display: block; }
+    .card:hover .card__tick svg path, .card.active .card__tick svg path {
+      fill: white;
+      stroke: #FF6699; }
+  .card:hover svg, .card.active svg {
+    -moz-box-shadow: -6px -6px 4px 0px #FF6699 inset;
+    box-shadow: inset -6px -6px 4px 0px #FF6699 inset;
+    -webkit-box-shadow: -6px -6px 4px 0px #FF6699 inset; }
+    .card:hover svg path, .card.active svg path {
+      fill: #FF6699; }
+
+.card__description {
+  color: #a0a0a0;
+  width: 80%;
+  margin: 30px auto 30px auto;
+  line-height: 230%; }
+
+.card__tick {
+  position: absolute;
+  bottom: -33px;
+  left: 43%;
+  display: none; }
+  .card__tick .circle {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 0.7s ease-in alternate 1;
+    animation-fill-mode: forwards; }
+  .card__tick .tick {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards; }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000; }
+  to {
+    stroke-dashoffset: 0; } }
+
+@media (max-width: 321px) {
+  .card__tick {
+    left: 38%; } }
+
+.beneficios-section {
+  text-align: center;
+  position: relative; }
+  .beneficios-section h3 {
+    margin-top: 120px; }
+  .beneficios-section img {
+    margin-top: 50px; }
+  .beneficios-section button {
+    margin: 0px auto; }
+
+.cards__container {
+  margin: 80px 0px 30px 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between; }
+
+.carousel__container {
+  display: none; }
+
+.data-audience-section {
+  background: url("/backgrounds/data-audience.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 120px;
+  padding: 190px 0px 90px 0px;
+  position: relative; }
+  .data-audience-section .screen-left,
+  .data-audience-section .screen-right {
+    display: none; }
+  .data-audience-section .image-container {
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    top: 100px; }
+  .data-audience-section .text-container {
+    width: 25%;
+    margin: 0px auto;
+    z-index: 2; }
+    .data-audience-section .text-container button {
+      margin: 20px auto; }
+    .data-audience-section .text-container p {
+      margin: 20px 0px 80px 0px; }
+
+.ventas-section {
+  position: relative;
+  text-align: center;
+  margin-top: 100px; }
+  .ventas-section p {
+    width: 60%;
+    margin: 0px auto 0px auto; }
+
+.herramientas-section {
+  position: relative;
+  margin: 130px auto; }
+  .herramientas-section button {
+    margin: 0px auto; }
+  .herramientas-section .icon {
+    width: 13%; }
+    .herramientas-section .icon p {
+      line-height: 140%; }
+  .herramientas-section .icons__container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 50px auto; }
+  .herramientas-section .a,
+  .herramientas-section .b,
+  .herramientas-section .c {
+    display: none; }
+  .herramientas-section .animated-icon:hover {
+    transform: scale(1.1);
+    transition: transform .2s; }
+    .herramientas-section .animated-icon:hover .a,
+    .herramientas-section .animated-icon:hover .b,
+    .herramientas-section .animated-icon:hover .c {
+      display: block; }
+  .herramientas-section .a stop {
+    animation: opani 0.2s ease-in alternate 1; }
+  .herramientas-section .b stop {
+    animation: opani 0.4s ease-in alternate 1; }
+  .herramientas-section .c stop {
+    animation: opani 0.6s ease-in alternate 1; }
+
+@keyframes opani {
+  from {
+    stop-opacity: 0; }
+  to {
+    stop-opacity: 1; } }
+
+@media (max-width: 930px) {
+  .cards__container {
+    display: none; }
+  .carousel__container {
+    margin: 50px 0px 30px 0px;
+    display: block;
+    width: 100%; }
+    .carousel__container .card {
+      width: 70%;
+      height: 80%;
+      margin: 80px 0px 80px 0px; }
+    .carousel__container .card__description {
+      line-height: 2; }
+  .BrainhubCarousel__dot {
+    min-width: 40px;
+    background-color: transparent;
+    box-shadow: none; }
+  .data-audience-section .text-container {
+    width: 45%; }
+  .herramientas-section .icons__container {
+    width: 100%;
+    flex-wrap: wrap; }
+  .herramientas-section .icon {
+    width: 30%; } }
+
+@media (max-width: 426px) {
+  .beneficios-section h3 {
+    margin-top: 60px; }
+  .beneficios-section img {
+    width: 90%; }
+  .carousel__container {
+    margin: 0px 0px 30px 0px; }
+    .carousel__container .card {
+      width: 90%;
+      height: 300px;
+      margin: 20px 0px 40px 0px; }
+    .carousel__container .card__description {
+      line-height: 1.4;
+      width: 90%;
+      font-size: 15px;
+      padding-bottom: 150px; }
+  .data-audience-section {
+    background: url("/backgrounds/data-audience-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 100px 0px 90px 0px; }
+    .data-audience-section .image-container {
+      display: none; }
+    .data-audience-section .screen-left {
+      display: block;
+      margin: 0px 10% 0px 0px; }
+    .data-audience-section .screen-right {
+      display: block;
+      margin: 0px 0px 0px 10%; }
+    .data-audience-section .text-container {
+      width: 80%;
+      margin: 0px auto;
+      z-index: 2; }
+      .data-audience-section .text-container button {
+        margin: 0px auto; }
+      .data-audience-section .text-container p {
+        margin: 20px 0px 30px 0px; }
+  .herramientas-section .icons__container {
+    width: 100%;
+    flex-wrap: wrap; }
+  .herramientas-section .icon {
+    width: 30%; }
+    .herramientas-section .icon svg {
+      width: 125px; } }
+
+@media (max-width: 376px) {
+  .herramientas-section .icon svg {
+    width: 120px; } }
+
+@media (max-width: 321px) {
+  .screen-left, .screen-right {
+    width: 90px; }
+  .ventas-section img {
+    width: 280px; }
+  .jumbotron__text h1 {
+    font-size: 42px; }
+  .herramientas-section .icon svg {
+    width: 100px; } }
+
